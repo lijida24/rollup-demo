@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="format-detection" content="telephone=no" />
+    <title>rollup demo</title>
+  </head>
+  <body>
+    <script src="./../dist/rollup-demo.js"></script>
+    <script>
+      var demo = new rollupDemo('hello world!')
+      demo.log().then(function (res) {
+        console.log(res)
+      })
+    </script>
+  </body>
+</html>
